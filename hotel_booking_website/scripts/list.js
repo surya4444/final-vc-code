@@ -1,7 +1,7 @@
 let urlParams = new URLSearchParams(window.location.search);
 const API_URL = "https://tripadvisor1.p.rapidapi.com/";
 const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
-const tripAdvisorKey = "<YOUR_API_KEY>";
+const tripAdvisorKey = "734a1f8ed5mshc254cbcc09e61f3p160505jsn63b00743fefa";
 
 //this function is used to initialize the google map and place the markers at the position obtained by the latitude and longitude of the hotel from the API
 let initMap = locations => {
